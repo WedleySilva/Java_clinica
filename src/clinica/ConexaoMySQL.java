@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ConexaoMySQL {
     private static final String URL = "jdbc:mysql://localhost:3306/clinica_esteticadb";
-    private static final String USER = "root";  // Altere conforme necessário
-    private static final String PASSWORD = "";  // Altere conforme necessário
+    private static final String USER = "root";
+    private static final String PASSWORD = "";
 
     public static Connection conectar() {
         try {
